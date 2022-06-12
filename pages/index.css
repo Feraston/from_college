@@ -1,8 +1,9 @@
 /* Параметры ко всей странице */
 @import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/body/body.css);
 
-/* hero */
-
+/* Hero */
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__header/hero__header.css);
 @import url(../blocks/hero/__main/hero__main.css);
@@ -13,5 +14,3 @@
 @import url(../blocks/hero/__about/hero__about.css);
 @import url(../blocks/hero/__image/hero__image.css);
 @import url(../blocks/hero/__info/hero__info.css);
-
-
