@@ -1,5 +1,16 @@
 /* Параметры ко всей странице */
-
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/body/body.css);
+
+/* Hero */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__header/hero__header.css);
+@import url(../blocks/hero/__main/hero__main.css);
+@import url(../blocks/hero/__subheader/hero__subheader.css);
+@import url(../blocks/hero/__date/hero__date.css);
+@import url(../blocks/hero/__button/hero__button.css);
+@import url(../blocks/hero/__tickets/hero__tickets.css);
+@import url(../blocks/hero/__about/hero__about.css);
+@import url(../blocks/hero/__image/hero__image.css);
+@import url(../blocks/hero/__info/hero__info.css);

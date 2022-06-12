@@ -1,0 +1,13 @@
+.hero__button {
+    margin: 0px 0px 0px 124px;
+    width: 240px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    border: 1px solid #242424;
+    padding: 0px 21px 0px 16px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
