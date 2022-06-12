@@ -3,3 +3,15 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/body/body.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links-columns/footer__links-columns.css);
+@import url(../blocks/footer/__list-links/footer__list-links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__image/footer__image.css);
+@import url(../blocks/adres/adres.css);
+@import url(../blocks/adres/__title/adres__title.css);
+@import url(../blocks/disputers/disputers.css);
+@import url(../blocks/footer/__copuright/footer__copuright.css);
+@import url(../blocks/footer/__copuright/_left/footer__copuright_left.css);
+@import url(../blocks/footer/__copuright/_right/footer__copuright_right.css);

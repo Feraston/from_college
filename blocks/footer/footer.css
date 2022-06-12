@@ -1,0 +1,11 @@
+.footer {
+  padding: 42px 32px 54px;
+  display: grid;
+  grid-template-rows: repeat(4, min-content);
+  grid-template-columns: 174px repeat(5, 1fr);
+  font-family: 'Formular';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #ECEBE8;
+}
