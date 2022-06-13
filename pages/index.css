@@ -18,3 +18,6 @@
 @import url(../blocks/footer/__copuright/footer__copuright.css);
 @import url(../blocks/footer/__copuright/_left/footer__copuright_left.css);
 @import url(../blocks/footer/__copuright/_right/footer__copuright_right.css);
+@import url(../blocks/footer/__copuright-element/footer__copuright-element.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/link/link.css);

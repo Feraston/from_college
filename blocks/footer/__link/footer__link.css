@@ -1,7 +1,8 @@
 .footer__link {
-  text-decoration: none;
+  list-style-type: none;
   color: #242424;
   font-size: 14px;
   line-height: 17px;
   padding-bottom: 15px;
+  width: max-content;
 }

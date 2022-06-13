@@ -1,9 +1,11 @@
 .footer__links-columns {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  justify-self: flex-end;
   grid-row: 2/3;
-  grid-column: 4/7;
-  margin-left: 130px;
-  margin-top: 5px;
+  grid-column: 4/6;
+  margin-top: 22px;
+  margin-right: 84px;
+  width: 543px;
 }
