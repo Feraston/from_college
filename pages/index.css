@@ -8,10 +8,13 @@
 @import url(../blocks/footer/__list-links/footer__list-links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__list-image/footer__list-image.css);
 @import url(../blocks/footer/__image/footer__image.css);
 @import url(../blocks/adres/adres.css);
 @import url(../blocks/adres/__title/adres__title.css);
+@import url(../blocks/adres/__subtitle/adres__subtitle.css);
 @import url(../blocks/disputers/disputers.css);
+@import url(../blocks/disputers/__title/disputers__title.css);
 @import url(../blocks/footer/__copuright/footer__copuright.css);
 @import url(../blocks/footer/__copuright/_left/footer__copuright_left.css);
 @import url(../blocks/footer/__copuright/_right/footer__copuright_right.css);
