@@ -3,6 +3,7 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   list-style-type: none;
   width: 434px;

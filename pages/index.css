@@ -15,10 +15,11 @@
 @import url(../blocks/adres/__subtitle/adres__subtitle.css);
 @import url(../blocks/disputers/disputers.css);
 @import url(../blocks/disputers/__title/disputers__title.css);
-@import url(../blocks/footer/__copuright/footer__copuright.css);
-@import url(../blocks/footer/__copuright/_left/footer__copuright_left.css);
-@import url(../blocks/footer/__copuright/_right/footer__copuright_right.css);
-@import url(../blocks/footer/__copuright-element/footer__copuright-element.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/copyright/copyright.css);
+@import url(../blocks/copyright/__element/copyright__element.css);
+@import url(../blocks/copyright/_left/copyright_left.css);
+@import url(../blocks/copyright/_right/copyright_right.css);
 @import url(../blocks/desing/desing.css);
 @import url(../blocks/desing/__text/desing__text.css);
 @import url(../blocks/desing/__icon/desing__icon.css);

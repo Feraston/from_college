@@ -1,11 +1,28 @@
 .footer {
-  padding: 42px 32px 54px;
-  display: grid;
-  grid-template-rows: repeat(4, min-content);
-  grid-template-columns: 174px repeat(4, 1fr);
   font-family: 'Formular';
   font-weight: 300;
-  font-size: 14px;
-  line-height: 17px;
-  background-color: #ECEBE8;
+  /*height: 492px;*/
+  color: #242424;
+}
+
+@media screen and (min-width: 426px) {
+  .footer {
+    font-size: 14px;
+    line-height: 17px;
+    display: grid;
+    grid-template-rows: repeat(4, min-content);
+    grid-template-columns: 174px repeat(4, 1fr);
+    padding: 42px 32px 54px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 56px 0 74px 53px;
+  }
 }
