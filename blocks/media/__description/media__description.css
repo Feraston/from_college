@@ -1,0 +1,10 @@
+.media__description {
+    margin: 0;
+    padding: 0px 0px 16px 0px;
+}
+.media__description:first-child {
+    text-indent: 0px;
+}
+.media__description:last-child {
+    padding: 0;
+}
