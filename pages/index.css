@@ -3,7 +3,7 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/body/body.css);
 
-/* Hero */
+/* hero */
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__header/hero__header.css);
 @import url(../blocks/hero/__main/hero__main.css);
@@ -14,3 +14,19 @@
 @import url(../blocks/hero/__about/hero__about.css);
 @import url(../blocks/hero/__image/hero__image.css);
 @import url(../blocks/hero/__info/hero__info.css);
+
+/* description */
+
+@import url(../blocks/media/media.css);
+@import url(../blocks/media/__about/media__about.css);
+@import url(../blocks/media/__body/media__body.css);
+@import url(../blocks/media/__content/media__content.css);
+@import url(../blocks/media/__creator/media__creator.css);
+@import url(../blocks/media/__creators/media__creators.css);
+@import url(../blocks/media/__description/media__description.css);
+@import url(../blocks/media/__descriptions/media__descriptions.css);
+@import url(../blocks/media/__info/media__info.css);
+@import url(../blocks/media/__job/media__job.css);
+@import url(../blocks/media/__person/media__person.css);
+@import url(../blocks/media/__rating/media__rating.css);
+@import url(../blocks/media/__time/media__time.css);
