@@ -1,4 +1,5 @@
 .footer__copuright_left {
   grid-column: 2/3;
   grid-row: 3/4;
+  margin-top: 20px;
 }
