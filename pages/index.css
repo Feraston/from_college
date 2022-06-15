@@ -4,12 +4,15 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__links-columns/footer__links-columns.css);
 @import url(../blocks/footer/__list-links/footer__list-links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__list-image/footer__list-image.css);
+@import url(../blocks/footer/__image-block/footer__image-block.css);
 @import url(../blocks/footer/__image/footer__image.css);
+@import url(../blocks/footer/__image-text/footer__image-text.css);
 @import url(../blocks/adres/adres.css);
 @import url(../blocks/adres/__title/adres__title.css);
 @import url(../blocks/adres/__subtitle/adres__subtitle.css);
@@ -24,4 +27,5 @@
 @import url(../blocks/desing/__text/desing__text.css);
 @import url(../blocks/desing/__icon/desing__icon.css);
 @import url(../blocks/developer-company/developer-company.css);
-@import url(../blocks/link/link.css);
+@import url(../blocks/link/link.css);/*Стиль для ссылки*/
+@import url(../blocks/copyright/__link/copyright__link.css);

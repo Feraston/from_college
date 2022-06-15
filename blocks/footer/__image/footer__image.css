@@ -1,3 +1,15 @@
 .footer__image {
   mix-blend-mode: multiply;
 }
+
+@media screen and (min-width: 426px) {
+  .footer__image {
+    max-width: 91px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__image {
+    max-width: 110px;
+  }
+}

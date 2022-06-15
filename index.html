@@ -15,6 +15,7 @@
   <!-- main -->
   </main>
   <footer class="footer">
+    <div class="footer__content">
       <div class="footer__logo"></div>
 
       <div class="adres">
@@ -57,24 +58,30 @@
       <div class="disputers">
         <p class="disputers__title">Генеральные партнеры</p>
         <ul class="footer__list-image">
-          <li><img src="./images/img__footer.jpg" alt="Логотип фонд Михаила Прохорова" class="footer__image"></li>
-          <li><img src="./images/img__footer1.jpg" alt="Логотип Mosbrew" class="footer__image"></li>
-          <li><img src="./images/img__footer2.jpg" alt="Логотип SBTG" class="footer__image"></li>
-          <li><img src="./images/img__footer3.jpg" alt="Логотип А поговорить" class="footer__image"></li>
+          <li class="footer__image-block">
+            <img src="./images/img__footer.jpg" alt="Логотип фонд Михаила Прохорова" class="footer__image">
+            <p class="footer__image-text">Генеральный партнёр</p></li>
+          <li class="footer__image-block"><img src="./images/img__footer1.jpg" alt="Логотип Mosbrew" class="footer__image"></li>
+          <li class="footer__image-block">
+            <img src="./images/img__footer2.jpg" alt="Логотип SBTG" class="footer__image">
+            <p class="footer__image-text">Онлайн-трансляции</p>
+          </li>
+          <li class="footer__image-block"><img src="./images/img__footer3.jpg" alt="Логотип А поговорить" class="footer__image"></li>
         </ul>
       </div>
+    </div>
 
       <div class="footer__copyright">
         <div class="copyright copyright_left">
           <p class="copyright__element">&copy;&nbsp;Любимовка,&nbsp;2021</p>
-          <p class="copyright__element">Политика&nbsp;конфиденциальности</p>
+          <p class="copyright__element">Политика&nbsp;<a class="copyright__link" href="#" target="_blank">конфиденциальности</a></p>
         </div>
         <div class="copyright copyright_right">
           <div class="desing">
             <div class="desing__icon"></div>
-            <p class="desing__text">дизайн сайта — shishki.collective</p>
+            <p class="desing__text">дизайн сайта — <a class="copyright__link" href="https://ru.shishki.co/" target="_blank"> shishki.collective</a></p>
           </div>
-          <p class="developer-company">вёрстка и разработака&nbsp;— студенты Яндекс.Практикума</p>
+          <p class="developer-company">вёрстка и разработака&nbsp;— студенты <a class="copyright__link" href="https://practicum.yandex.ru/" target="_blank">Яндекс.Практикума</a></p>
         </div>
       </div>
   </footer>

@@ -1,0 +1,21 @@
+.footer__content {
+
+}
+
+@media screen and (min-width: 426px) {
+  .footer__content {
+    display: grid;
+    grid-template-rows: repeat(3, min-content);
+    grid-template-columns: 174px repeat(4, 1fr);
+    padding: 42px 32px 54px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 56px 0 74px 53px;
+  }
+}

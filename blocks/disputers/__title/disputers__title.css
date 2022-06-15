@@ -1,5 +1,16 @@
 .disputers__title {
   margin: 0;
   padding: 0;
-  max-width: 147px;
+}
+
+@media screen and (min-width: 426px) {
+  .disputers__title {
+    max-width: 147px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .disputers__title {
+    display: none;
+  }
 }

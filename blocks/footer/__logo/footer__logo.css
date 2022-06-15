@@ -4,3 +4,9 @@
   background-image: url('../../../images/logo__footer.svg');
   grid-column: 1/2;
 }
+
+@media screen and (max-width: 425px) {
+  .footer__logo {
+    margin-left: 3px;
+  }
+}

@@ -1,8 +1,20 @@
 .disputers {
   grid-row: 1/2;
   grid-column: 2/7;
-  height: 37px;
   display: flex;
   align-items: center;
-  margin-top: 4px;
+}
+
+@media screen and (min-width: 426px) {
+  .disputers {
+    margin-top: 4px;
+    max-height: 37px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .disputers {
+    margin-bottom: 68px;
+    max-height: 254px;
+  }
 }

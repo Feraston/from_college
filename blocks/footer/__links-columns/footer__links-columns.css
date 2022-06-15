@@ -19,6 +19,7 @@
 @media screen and (max-width: 425px) {
   .footer__links-columns {
     max-width: 100%;
-    margin-bottom: 51px;
+    margin-bottom: 7px;
+    margin-left: 2px;
   }
 }
