@@ -17,6 +17,5 @@
 
 @media screen and (max-width: 425px) {
   .footer__list-image {
-    justify-content: flex-start;
   }
 }
