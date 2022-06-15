@@ -1,2 +1,9 @@
 .copyright_right {
 }
+
+@media screen and (max-width: 425px) {
+  .copyright_right {
+    margin-right: 43px;
+    margin-top: 42px;
+  }
+}

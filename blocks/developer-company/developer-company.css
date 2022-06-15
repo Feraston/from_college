@@ -1,4 +1,16 @@
 .developer-company {
   margin: 34px 20px 0 42px;
-  width: 207px;
+  /*width: 207px;*/
+}
+
+@media screen and (min-width: 426px) {
+  .developer-company {
+    margin: 34px 20px 0 42px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .developer-company {
+    margin: 17px 41px 0 0;
+  }
 }
