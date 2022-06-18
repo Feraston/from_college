@@ -3,6 +3,7 @@
   align-items: flex-start;
   justify-self: flex-end;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 @media screen and (min-width: 426px) {
@@ -11,14 +12,13 @@
     grid-column: 4/6;
     margin-top: 22px;
     margin-right: 84px;
-    max-width: 543px;
     justify-content: space-between;
   }
 }
 
 @media screen and (max-width: 425px) {
   .footer__links-columns {
-    max-width: 100%;
+    /*max-width: 100%;*/
     margin-bottom: 47px;
     margin-left: 14px;
   }
