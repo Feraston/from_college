@@ -6,16 +6,22 @@
   line-height: 17px;
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 796px) {
   .footer__copyright {
     padding: 0 74px 53px 206px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 795px) {
   .footer__copyright {
     flex-direction: column;
     padding: 33px 0 74px 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__copyright {
+    padding: 12px 0 74px 28px;
     border-top: 1px solid #242424;
   }
 }

@@ -2,12 +2,6 @@
   mix-blend-mode: multiply;
 }
 
-@media screen and (min-width: 426px) {
-  .footer__image {
-    
-  }
-}
-
 @media screen and (max-width: 425px) {
   .footer__image {
     margin-bottom: 26px;

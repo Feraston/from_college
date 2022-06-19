@@ -1,9 +1,13 @@
-.copyright_right {
+@media screen and (max-width: 795px) {
+  .copyright_right {
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .copyright_right {
     margin-right: 43px;
-    margin-top: 42px;
+    margin-top: 46px;
   }
 }

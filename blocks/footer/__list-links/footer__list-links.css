@@ -3,15 +3,28 @@
   padding: 0;
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 1316px) {
   .footer__list-links {
     margin: 0 0 0 57px;
   }
 }
 
+@media screen and (max-width: 1315px) {
+  .footer__list-links {
+    margin: 0 0 20px 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__list-links {
+    margin-right: 47px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .footer__list-links {
-    margin-bottom: 22px;
-    margin-right: 49px;
+    margin-bottom: 41px;
+    margin-right: 35px;
+    margin-left: 14px;
   }
 }

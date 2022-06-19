@@ -1,15 +1,19 @@
-.desing__text {
-  width: min-content;
-}
-
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 795px) {
   .desing__text {
     margin: 15px 0 0;
   }
 }
 
+@media screen and (max-width: 794px) {
+  .desing__text {
+    margin: 0;
+    width: max-content;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .desing__text {
-    margin: 6px 0 0;
+    margin: 3px 0 0;
+    width: min-content;
   }
 }
