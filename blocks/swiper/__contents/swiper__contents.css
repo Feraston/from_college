@@ -1,0 +1,6 @@
+.swiper__contents {
+  width: 568px;
+  max-height: 40px;
+  display: flex;
+  justify-content: space-between;
+}

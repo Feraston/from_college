@@ -1,0 +1,9 @@
+.swiper__navigation {
+  width: 718px;
+  min-height: 55px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 40px;
+}

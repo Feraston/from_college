@@ -1,0 +1,7 @@
+.swiper-pagination {
+  position: relative;
+  max-width: 64px;
+  gap: 16px;
+  top: 0;
+  align-self: center;
+}

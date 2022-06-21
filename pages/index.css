@@ -14,3 +14,18 @@
 @import url(../blocks/hero/__about/hero__about.css);
 @import url(../blocks/hero/__image/hero__image.css);
 @import url(../blocks/hero/__info/hero__info.css);
+
+/* Swiper */
+@import url(../blocks/swiper/swiper.css);
+@import url(../blocks/swiper/__navigation/swiper__navigation.css);
+@import url(../blocks/swiper/__contents/swiper__contents.css);
+@import url(../blocks/swiper/__title/swiper__title.css);
+@import url(../blocks/swiper/-pagination/swiper-pagination.css);
+@import url(../blocks/swiper/-pagination/-bullet/swiper-pagination-bullet.css);
+@import url(../blocks/swiper/-pagination/-bullet/-active/swiper-pagination-bullet-active.css);
+@import url(../blocks/swiper/-button/swiper-button-next.css);
+@import url(../blocks/swiper/-button/swiper-button-prev.css);
+@import url(../blocks/swiper/-slide/swiper-slide.css);
+@import url(../blocks/swiper/-slide/-active/swiper-slide-active.css);
+@import url(../blocks/swiper/__content/swiper__content.css);
+@import url(../blocks/swiper/__button/swiper__button.css);

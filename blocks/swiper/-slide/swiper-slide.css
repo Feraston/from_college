@@ -1,0 +1,10 @@
+.swiper-slide {
+  width: 718px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: 55px 88px 72px;
+  opacity: .3;
+}
