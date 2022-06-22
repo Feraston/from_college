@@ -1,0 +1,24 @@
+@media screen and (min-width: 1111px) {
+  .developer-company {
+    margin: 20px 18px 0 42px;
+    max-width: 207px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .developer-company {
+    margin: 20px 20px 0 20px;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .developer-company {
+    margin-left: 33px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .developer-company {
+    margin: 17px 41px 0 0;
+  }
+}

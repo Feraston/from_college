@@ -1,0 +1,19 @@
+.adres__subtitle {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 426px) {
+  .adres__subtitle {
+    max-width: 147px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .adres__subtitle {
+    opacity: 0.6;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 278px;
+  }
+}

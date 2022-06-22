@@ -1,0 +1,19 @@
+.footer {
+  font-family: "Formular";
+  font-weight: 300;
+  color: #242424;
+}
+
+@media screen and (min-width: 426px) {
+  .footer__content {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__content {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

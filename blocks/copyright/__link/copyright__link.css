@@ -1,0 +1,9 @@
+.copyright__link {
+  color: #242424;
+}
+
+@media screen and (min-width: 426px) {
+  .copyright__link {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,21 @@
+.footer__link {
+  list-style-type: none;
+  color: #242424;
+  width: max-content;
+}
+
+@media screen and (min-width: 426px) {
+  .footer__link {
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__link {
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 13px;
+  }
+}

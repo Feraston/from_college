@@ -1,0 +1,23 @@
+.footer__links-columns {
+  display: flex;
+  align-items: flex-start;
+  justify-self: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (min-width: 796px) {
+  .footer__links-columns {
+    grid-row: 2/3;
+    grid-column: 4/6;
+    margin-top: 22px;
+    margin-right: 84px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .footer__links-columns {
+    margin-bottom: 28px;
+  }
+}

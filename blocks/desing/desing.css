@@ -1,0 +1,11 @@
+.desing {
+  display: flex;
+  align-items: center;
+  width: min-content;
+}
+
+@media screen and (min-width: 426px) {
+  .desing {
+    margin-top: 7px;
+  }
+}

@@ -1,0 +1,16 @@
+.copyright__element {
+  margin-top: 0;
+  margin-right: 33px;
+  margin-left: 0;
+}
+@media screen and (min-width: 426px) {
+  .copyright__element {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .copyright__element {
+    margin-bottom: 10px;
+  }
+}

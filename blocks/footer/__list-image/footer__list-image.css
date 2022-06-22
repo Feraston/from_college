@@ -1,0 +1,14 @@
+.footer__list-image {
+  padding: 2px 0 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 426px) {
+  .footer__list-image {
+    justify-content: space-between;
+  }
+}

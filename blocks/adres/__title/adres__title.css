@@ -1,0 +1,20 @@
+.adres__title {
+  font-family: "Neue Machina";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 426px) {
+  .adres__title {
+    margin-bottom: 19px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .adres__title {
+    margin-bottom: 11px;
+  }
+}
