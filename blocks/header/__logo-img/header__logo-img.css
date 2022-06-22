@@ -1,0 +1,6 @@
+.header__logo-img {
+  height: 100%;
+  width: 100%;
+  background-image: url(../../../images/head-logo.png);
+  background-repeat: no-repeat;
+}

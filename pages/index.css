@@ -3,6 +3,21 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/body/body.css);
 
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo-img/header__logo-img.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__links/menu__links.css);
+@import url(../blocks/menu/__link-li/menu__link-li.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__soc-links/menu__soc-links.css);
+@import url(../blocks/menu/__soc-link/menu__soc-link.css);
+
+@import url(../blocks/header/__button/header__button.css);
+
+
+
 /* hero */
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__header/hero__header.css);

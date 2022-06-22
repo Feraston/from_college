@@ -1,0 +1,11 @@
+.menu__soc-links {
+  width: 257px;
+  max-width: 207px;
+  display: grid;
+  grid: 1fr/repeat(5, auto);
+  grid-gap: 16px;
+  margin: 0 auto;
+  padding: 10px 24px 20px 24px;
+  list-style: none;
+  grid-column: 4;
+}
