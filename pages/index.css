@@ -29,3 +29,9 @@
 @import url(../blocks/swiper/-slide/-active/swiper-slide-active.css);
 @import url(../blocks/swiper/__content/swiper__content.css);
 @import url(../blocks/swiper/__button/swiper__button.css);
+@import url(../blocks/swiper/_comment/swiper_comment.css);
+@import url(../blocks/swiper/__contents/_comment/swiper__contents_comment.css);
+@import url(../blocks/swiper/-pagination/_comment/swiper-pagination_comment.css);
+@import url(../blocks/swiper/-slide/_comment/swiper-slide_comment.css);
+@import url(../blocks/swiper/__content/_comment/swiper__content_comment.css);
+@import url(../blocks/swiper/__author/swiper__author.css);

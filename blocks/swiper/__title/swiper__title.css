@@ -1,5 +1,13 @@
 .swiper__title {
+  font-family: 'Neue Machina', sans-serif;
   font-size: 40px;
   letter-spacing: -.01em;
   margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .swiper__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
 }

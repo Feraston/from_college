@@ -5,3 +5,11 @@
   top: 0;
   align-self: center;
 }
+
+@media screen and (max-width: 750px) {
+  .swiper-pagination {
+    position: absolute;
+    top: 102px;
+    left: 29px;
+  }
+}
