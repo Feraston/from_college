@@ -1,0 +1,16 @@
+@media screen and (max-width: 1337px) {
+  .swiper-pagination_comment {
+    max-width: 70px;
+  }
+  @media screen and (max-width: 887px) {
+    .swiper-pagination_comment {
+      max-width: 84px;
+    }
+  }
+  @media screen and (max-width: 440px) {
+    .swiper-pagination_comment {
+      max-width: 98px;
+      top: 121px;
+    }
+  }
+}

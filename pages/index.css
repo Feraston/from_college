@@ -1,8 +1,58 @@
 /* Параметры ко всей странице */
-
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/body/body.css);
+
+/* hero */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__header/hero__header.css);
+@import url(../blocks/hero/__main/hero__main.css);
+@import url(../blocks/hero/__subheader/hero__subheader.css);
+@import url(../blocks/hero/__date/hero__date.css);
+@import url(../blocks/hero/__button/hero__button.css);
+@import url(../blocks/hero/__tickets/hero__tickets.css);
+@import url(../blocks/hero/__about/hero__about.css);
+@import url(../blocks/hero/__image/hero__image.css);
+@import url(../blocks/hero/__info/hero__info.css);
+
+/* description */
+
+@import url(../blocks/media/media.css);
+@import url(../blocks/media/__about/media__about.css);
+@import url(../blocks/media/__body/media__body.css);
+@import url(../blocks/media/__content/media__content.css);
+@import url(../blocks/media/__creator/media__creator.css);
+@import url(../blocks/media/__creators/media__creators.css);
+@import url(../blocks/media/__description/media__description.css);
+@import url(../blocks/media/__descriptions/media__descriptions.css);
+@import url(../blocks/media/__info/media__info.css);
+@import url(../blocks/media/__job/media__job.css);
+@import url(../blocks/media/__person/media__person.css);
+@import url(../blocks/media/__rating/media__rating.css);
+@import url(../blocks/media/__time/media__time.css);
+
+/* Swiper */
+@import url(../blocks/swiper/swiper.css);
+@import url(../blocks/swiper/__navigation/swiper__navigation.css);
+@import url(../blocks/swiper/__contents/swiper__contents.css);
+@import url(../blocks/swiper/__title/swiper__title.css);
+@import url(../blocks/swiper/-pagination/swiper-pagination.css);
+@import url(../blocks/swiper/-pagination/-bullet/swiper-pagination-bullet.css);
+@import url(../blocks/swiper/-pagination/-bullet/-active/swiper-pagination-bullet-active.css);
+@import url(../blocks/swiper/-button/swiper-button-next.css);
+@import url(../blocks/swiper/-button/swiper-button-prev.css);
+@import url(../blocks/swiper/-slide/swiper-slide.css);
+@import url(../blocks/swiper/-slide/-active/swiper-slide-active.css);
+@import url(../blocks/swiper/__content/swiper__content.css);
+@import url(../blocks/swiper/__button/swiper__button.css);
+@import url(../blocks/swiper/_comment/swiper_comment.css);
+@import url(../blocks/swiper/__contents/_comment/swiper__contents_comment.css);
+@import url(../blocks/swiper/-pagination/_comment/swiper-pagination_comment.css);
+@import url(../blocks/swiper/-slide/_comment/swiper-slide_comment.css);
+@import url(../blocks/swiper/__content/_comment/swiper__content_comment.css);
+@import url(../blocks/swiper/__author/swiper__author.css);
+
+/* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__links-columns/footer__links-columns.css);

@@ -1,0 +1,7 @@
+.swiper__contents {
+  position: relative;
+  width: 568px;
+  max-height: 40px;
+  display: flex;
+  justify-content: space-between;
+}

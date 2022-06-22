@@ -1,0 +1,16 @@
+.swiper__navigation {
+  position: relative;
+  width: 718px;
+  min-height: 55px;
+  margin: 0 auto 40px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+  .swiper__navigation {
+    max-width: 365px;
+    margin: 0 auto 25px;
+  }
+}

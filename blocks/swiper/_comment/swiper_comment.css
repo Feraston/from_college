@@ -1,0 +1,11 @@
+.swiper_comment {
+  margin: 116px auto 64px;
+  max-width: 1320px;
+}
+
+@media screen and (max-width: 750px) {
+  .swiper_comment {
+    max-width: 415px;
+    margin: 77px auto 0;
+  }
+}

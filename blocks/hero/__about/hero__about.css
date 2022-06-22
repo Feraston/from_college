@@ -1,0 +1,6 @@
+.hero__about {
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-self: right;
+}
