@@ -1,0 +1,18 @@
+.swiper-slide {
+  position: relative;
+  width: 718px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: 55px 88px 72px;
+  opacity: .3;
+}
+
+@media screen and (max-width: 750px) {
+  .swiper-slide {
+    max-width: 415px;
+    padding: 77px 26px 72px;
+  }
+}

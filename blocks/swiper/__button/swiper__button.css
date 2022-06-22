@@ -1,0 +1,49 @@
+.swiper__button {
+  position: relative;
+  border: none;
+  background: none;
+  border-left: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  height: 32px;
+  font-size: 16px;
+  line-height: 14px;
+  text-transform: uppercase;
+  transition: all .4s;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.swiper__button::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #242424;
+  transition: all .4s;
+  z-index: -1;
+}
+
+.swiper__button:hover::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  background: url('../../../images/arrow-45-hover.png');
+  width: 25px;
+  height: 25px;
+  z-index: 3;
+}
+
+.swiper__button:hover {
+  color: #fff;
+}
+
+.swiper__button:hover::before {
+  width: 100%;
+}
+
+.swiper__button:active::before {
+  transform: scale(1.1, 1.1);
+}

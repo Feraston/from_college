@@ -1,0 +1,8 @@
+.swiper-pagination-bullet {
+  outline: 1px solid #000;
+  width: 6px;
+  height: 6px;
+  opacity: 1;
+  background: none;
+  margin: 10px 8px;
+}

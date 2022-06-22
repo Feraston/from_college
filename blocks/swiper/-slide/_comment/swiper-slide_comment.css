@@ -1,0 +1,14 @@
+.swiper-slide_comment {
+  width: 420px;
+  padding: 33px 30px 24px;
+  height: 361px;
+  opacity: 1;
+}
+
+@media screen and (max-width: 750px) {
+  .swiper-slide_comment {
+    max-width: 415px;
+    height: 476px;
+    padding: 72px 27px 100px;
+  }
+}
