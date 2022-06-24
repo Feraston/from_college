@@ -2,6 +2,7 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/body/body.css);
+@import url(../vendor/animation.css);
 
 /* Header */
 @import url(../blocks/header/header.css);
@@ -45,6 +46,21 @@
 @import url(../blocks/media/__person/media__person.css);
 @import url(../blocks/media/__rating/media__rating.css);
 @import url(../blocks/media/__time/media__time.css);
+
+/* sidebar */
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar/__about/sidebar__about.css);
+@import url(../blocks/sidebar/__author/sidebar__author.css);
+@import url(../blocks/sidebar/__body/sidebar__body.css);
+@import url(../blocks/sidebar/__body/sidebar__body.css);
+@import url(../blocks/sidebar/__date/sidebar__date.css);
+@import url(../blocks/sidebar/__icon/sidebar__icon.css);
+@import url(../blocks/sidebar/__inner/sidenar__inner.css);
+@import url(../blocks/sidebar/__link/sidebar__link.css);
+@import url(../blocks/sidebar/__place/sidebar__place.css);
+@import url(../blocks/sidebar/__subheader/sidebar__subheader.css);
+@import url(../blocks/sidebar/__title/sidebar__title.css);
+@import url(../blocks/sidebar/_opened/sidebar_opened.css);
 
 /* Swiper */
 @import url(../blocks/swiper/swiper.css);

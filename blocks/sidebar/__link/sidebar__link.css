@@ -1,0 +1,32 @@
+.sidebar__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 21px 0px 16px;
+    min-height: 56px;
+    align-items: center;
+    border-top: 1px solid #242424;
+    position: relative;
+    z-index: 2;
+    color: #242424;
+    transition: all .35s;
+}
+
+.sidebar__link:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #242424;
+    transition: all .35s;
+  }
+  
+.sidebar__link:hover{
+    color: #ECEBE8;
+}
+  
+.sidebar__link:hover:after{
+    width: 100%;
+}

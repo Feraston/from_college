@@ -1,3 +1,7 @@
 .hero__image {
+    display: block;
+    min-width: 320px;
     margin: 95px 0px 0px 0px;
+    object-fit: contain;
+    width: 100%;
 }

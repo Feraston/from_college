@@ -44,4 +44,23 @@ var swiper2 = new Swiper(".mySwiper_two", {
   },
 });
 
+// открытие карточки при наведении
+(function () {
+  const card = document.querySelector('.sidebar__inner');
+  const cardInner = document.querySelector('.sidebar__body');
+
+  const showCard = function () {
+  cardInner.classList.add('sidebar_opened');
+};
+  const removeCard = function () {
+  cardInner.classList.remove('sidebar_opened');
+
+}
+
+card.addEventListener('mouseover',showCard);
+card.addEventListener('mouseout',removeCard);
+})();
+
+
+
 

@@ -2,3 +2,12 @@
     display: flex;
     margin-left: 184px;
 }
+
+@media screen and (max-width: 720px) {
+    .media__info {
+        display: flex;
+        margin-left: 24px;
+        margin-top: 58px;
+
+    }
+}

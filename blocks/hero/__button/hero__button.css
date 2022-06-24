@@ -17,6 +17,19 @@
     z-index: 2;
 }
 
+@media screen and (max-width: 1420px) {
+  .hero__button{
+    margin: 0px 0px 0px 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .hero__button{
+    margin: 0;
+    align-self: center;
+  }
+}
+
 .hero__button:after{
   position: absolute;
   content: "";
