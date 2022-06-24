@@ -1,0 +1,10 @@
+.sidebar__title {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #242424;
+    padding: 24px 0px 0px 24px;
+}

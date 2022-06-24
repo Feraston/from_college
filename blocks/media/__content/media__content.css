@@ -4,3 +4,23 @@
     background-image: url(../../../images/media__blueprint.png);
     margin-right: 30px;
 }
+
+@media screen and (max-width: 1420px) {
+    .media__content {
+        margin: 0;
+        height: 300px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .media__content {
+        min-width: 320px;
+        min-height: 206px;
+        width: 100%;
+        height: 100%;
+ 
+    }
+}

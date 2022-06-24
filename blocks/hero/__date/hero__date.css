@@ -6,3 +6,14 @@
     letter-spacing: -0.01em;
     margin: 212px 0px 16px 124px;
 }
+
+@media screen and (max-width: 1420px) {
+    .hero__date {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        margin: 31px 0px 16px 89px;
+    }
+  }

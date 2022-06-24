@@ -4,3 +4,12 @@
     flex-direction: column;
     align-self: right;
 }
+
+@media screen and (max-width: 1420px) {
+    .hero__about {
+        max-width: 720px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+  }

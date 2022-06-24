@@ -8,3 +8,9 @@
     text-align: left;
     margin: 37px 0px 0px 180px;
 }
+
+@media screen and (max-width: 1420px) {
+    .hero__subheader {
+        margin: 16px 0px 0px 86px;
+    }
+  }

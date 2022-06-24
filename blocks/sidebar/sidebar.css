@@ -1,0 +1,8 @@
+@media screen and (max-width: 720px) {
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 80px 0px  256px 0px ;
+    }
+}
